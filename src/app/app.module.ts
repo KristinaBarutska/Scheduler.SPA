@@ -4,12 +4,14 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { RecruiterComponent } from './recruiter/recruiter.component';
+import { InterviewComponent } from './interview/interview.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    RecruiterComponent
+    RecruiterComponent,
+    InterviewComponent
 ],
   imports: [
     BrowserModule,

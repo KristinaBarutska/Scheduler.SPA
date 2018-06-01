@@ -2,11 +2,12 @@ import { Component, OnInit } from '@angular/core';
 import { Http } from '@angular/http';
 
 @Component({
-  selector: 'app-recruiter',
-  templateUrl: './recruiter.component.html',
-  styleUrls: ['./recruiter.component.css']
+  selector: 'app-interview',
+  templateUrl: './interview.component.html',
+  styleUrls: ['./interview.component.css']
 })
-export class RecruiterComponent implements OnInit {
+export class InterviewComponent implements OnInit {
+
   recruiters: any;
   constructor(private http: Http) { }
 
